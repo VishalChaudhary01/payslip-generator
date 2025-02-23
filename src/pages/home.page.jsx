@@ -38,7 +38,8 @@ export function HomePage() {
   };
 
   return (
-    <div className="flex items-center justify-center w-full min-h-screen">
+    <div className="flex flex-col gap-4 items-center justify-center w-full min-h-screen">
+     <h2 className="text-2xl font-bold text-gray-800">Fill the form to generate the slip</h2>{" "}
       <form
         onSubmit={handleSubmit}
         className="flex flex-col gap-4 p-4 border border-gray-400 rounded-md shadow-sm w-1/2"

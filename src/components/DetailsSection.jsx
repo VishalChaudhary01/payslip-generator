@@ -2,7 +2,7 @@ export function DetailSection({ title, data, keys }) {
      return (
        <div className="mb-4 w-full">
          <h3 className="text-xl font-semibold text-gray-700 mb-2">{title}</h3>
-         <div className="border p-3 rounded-md bg-white shadow-sm">
+         <div className="p-3">
            {keys.map((key) => (
              <p key={key} className="text-gray-800">
                <span className="font-medium">
